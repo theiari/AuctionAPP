@@ -12,6 +12,7 @@
     <string name="username">Username</string>
     <string name="title_activity_dashboard">activity_dashboard</string>
     <string name="title_home">Home</string>
+    <string name="SignOut">Logout</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
