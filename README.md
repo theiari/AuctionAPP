@@ -16,4 +16,4 @@ The app is a simple auction marketplace where the users can:
   -internet access  
   -Phone's camera access  
 
-  It has been tested on Oneplus 8T and Pixel 7 Pro. There might be graphical issues on other devices
+  It has been tested on Oneplus 8T and Pixel 7 Pro. There might be graphical issues on other devices.
