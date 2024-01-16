@@ -3,7 +3,7 @@ MACC exam project.
 The app is a simple auction marketplace where the users can:
 -  view all the available auctions
 -  make an offer ( so update auctions' price field)
--  create new auction
+-  create new auctions
 
   It implements some cloud capabilities as it follows:
 
