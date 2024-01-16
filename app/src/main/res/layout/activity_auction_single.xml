@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".AddAuctionActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="651dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="32dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:layout_marginTop="347dp"
+            android:layout_marginBottom="63dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/auction_single_title"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/auction_single_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="description"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:translationY="20dp" />
+
+            <TextView
+                android:id="@+id/auction_single_currentprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="current price"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:translationY="100dp" />
+
+            <EditText
+                android:id="@+id/auction_single_setprice"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="your offer     €"
+                android:inputType="number"
+                android:singleLine="true"
+                android:translationY="100dp" />
+
+            <Button
+                android:id="@+id/make_offer_button"
+                android:layout_width="149dp"
+                android:layout_height="70dp"
+                android:text="Make offer!"
+                android:textColor="@color/black"
+                android:translationY="100dp" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="259dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center_horizontal"
+            android:translationY="50dp">
+
+            <ImageView
+                android:id="@+id/auction_imageView_single"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:adjustViewBounds="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

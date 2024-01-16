@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921033932789",
+    "project_id": "macc-9601d",
+    "storage_bucket": "macc-9601d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921033932789:android:7f5b48b0ff85e265f7aabc",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationmacc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk5dfZu1t5vlpP0jM7yz5CXVAkDj4Yi-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
